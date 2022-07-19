@@ -1,0 +1,14 @@
+:root {
+  --clr_title: #4f4f4f;
+  --clr_text: #000000;
+  --clr_text2: #333333;
+  --clr_bg_btn: #f2994a;
+  --clr_gray: #bdbdbd;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
