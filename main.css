@@ -11,7 +11,7 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Playfair Display', serif; */
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,11 +20,55 @@ body {
 main {
   margin: 0 1em;
 }
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  line-height: 2rem;
+}
 img {
   width: 100%;
   height: auto;
   border-radius: 0.8em;
 }
+/* Header Section */
+header {
+  margin-top: 2em;
+}
+.text_header {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+.text_content {
+  font-size: 0.75rem;
+  font-weight: 500;
+  /* font-style: italic; */
+  letter-spacing: 0.8px;
+  margin: 0;
+  padding: 0;
+  line-height: 0.938rem;
+  color: var(--clr_title);
+}
+.dots {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15em;
+  margin-top: 0.3em;
+}
+.group_dot {
+  display: flex;
+  gap: 0.15em;
+}
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+}
+
 .resume_recipe {
   display: flex;
   flex-direction: column;
