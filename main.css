@@ -21,10 +21,23 @@ main {
   margin: 0 1em;
 }
 h1 {
-  font-size: 1.5rem;
+  font-size: calc(1.5rem + 1vw);
   font-weight: 700;
   font-family: 'Playfair Display', serif;
   line-height: 2rem;
+}
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: calc(1.125rem + 1vw);
+  line-height: 23.99px;
+}
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: calc(1rem + 1vw);
+  color: var(--clr_gray_1);
 }
 img {
   width: 100%;
@@ -108,4 +121,36 @@ header {
 }
 .clr_gray_1 {
   color: var(--clr_gray_1);
+}
+
+/* Ingredients Recipe Section  */
+.label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(0.6rem + 1vw);
+  font-weight: 400;
+  line-height: 1.563rem;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+  color: #333;
+}
+input[type='checkbox'] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.1em solid #828282;
+  border-radius: 4px;
+}
+.ingredients_recipe_checkbox {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
