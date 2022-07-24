@@ -1,7 +1,7 @@
 :root {
   --clr_title: #4f4f4f;
   --clr_text: #000000;
-  --clr_text2: #333333;
+  --clr_gray_1: #333333;
   --clr_bg_btn: #f2994a;
   --clr_gray: #bdbdbd;
 }
@@ -68,6 +68,7 @@ header {
   border-radius: 50%;
   background-color: #c4c4c4;
 }
+/* Resumen Recipe Instructions Section  */
 
 .resume_recipe {
   display: flex;
@@ -75,6 +76,36 @@ header {
 }
 .info_recipe {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  gap: 3em;
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin-top: 1em;
+}
+.wrap_content p {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 0.5rem;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+.wrap_content p span {
+  font-size: 0.7rem;
+  font-weight: 500;
+  line-height: 0.75rem;
+  text-transform: lowercase;
+}
+.clr_gray {
+  color: var(--clr_gray);
+}
+.clr_bg_btn {
+  color: var(--clr_bg_btn);
+}
+.clr_gray_1 {
+  color: var(--clr_gray_1);
 }
