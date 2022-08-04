@@ -36,7 +36,7 @@ h3 {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-style: italic;
-  font-size: calc(0.8rem + 1vw);
+  font-size: calc(0.7rem + 1vw);
   color: var(--clr_gray_1);
 }
 img {
@@ -131,7 +131,8 @@ header {
 .label {
   font-family: 'Montserrat', sans-serif;
   line-height: 24px;
-  font-size: calc(0.736rem + 1vw);
+  /* font-size: calc(0.736rem + 1vw); */
+  font-size: 14px;
   font-weight: 400;
   display: grid;
   grid-template-columns: 1em auto;
@@ -191,7 +192,7 @@ input[type='checkbox'] {
 }
 .text_instructions p {
   line-height: calc(0.735rem + 1vw);
-  font-size: calc(0.736rem + 1vw);
+  font-size: 16px;
   font-weight: 400;
 }
 .text_bold {
@@ -237,7 +238,10 @@ footer p a:hover {
     font-size: 0.875;
     width: 60%;
   }
-
+  /* Ingredients Recipe Section  */
+  .label {
+    font-size: 16px;
+  }
   /* Resumen Recipe Instructions Section  */
   .recipe {
     display: flex;
