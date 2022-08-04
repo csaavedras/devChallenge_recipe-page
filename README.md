@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://www.figma.com/proto/2jVBTSKeCYF0dIN6fi0stX/recipe-blog-challenge?page-id=0%3A1&node-id=1%3A7&viewport=921%2C1168%2C0.57&scaling=min-zoom">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://62eb42d71e80d139d386cef0--calm-naiad-31eae2.netlify.app">
       Solution
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-challenge}">
+    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
       Challenge
     </a>
   </h3>
@@ -28,67 +28,31 @@
 
 - [Overview](#overview)
   - [Built With](#built-with)
-- [Features](#features)
-- [How to use](#how-to-use)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+![screenshot](./assets/Screens.png)
 
 - Where can I see your demo?
+  👀 https://62eb42d71e80d139d386cef0--calm-naiad-31eae2.netlify.app and look my GitHub https://github.com/csaavedras/devChallenge_recipe-page
 - What was your experience?
+  Amazing experience, every time I feel more comfortable building desings in HTML/CSS
 - What have you learned/improved?
-- Your wisdom? :)
+  I improved how to write CSS, and use calc() function for responsive text. In this opportunity began the project writing CSS for mobile views and then change for Desktop views to apply the technique Mobile First.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
-
-## Features
-
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
-
-- [x] User story: This is a completed user stories
-- [ ] User story: This is a incompleted user stories
-- [ ] User story: This is a incompleted 2nd user stories
-
-## How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
-```
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [HTML](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics)
+- [CSS](w3schools.com/css/
+- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [calc()](https://css-tricks.com/a-complete-guide-to-calc-in-css/)
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [csaavedras](https://github.com/csaavedras)
+- GitHub [csaavedras](https://github.com/csaavedras)
