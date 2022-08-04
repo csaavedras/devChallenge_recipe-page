@@ -186,7 +186,7 @@ input[type='checkbox'] {
   width: 90%;
 }
 .text_instructions p {
-  line-height: 24px;
+  line-height: calc(0.735rem + 1vw);
   font-size: calc(0.736rem + 1vw);
   font-weight: 400;
 }
