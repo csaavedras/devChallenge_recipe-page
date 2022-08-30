@@ -140,10 +140,6 @@ header {
   color: #333;
 }
 input[type='checkbox'] {
-  /* Add if not using autoprefixer */
-  -webkit-appearance: none;
-  appearance: none;
-  /* For iOS < 15 to remove gradient background */
   background-color: #fff;
   /* Not removed via appearance */
   margin: 0;
@@ -154,6 +150,7 @@ input[type='checkbox'] {
   border: 0.1em solid #828282;
   border-radius: 4px;
 }
+
 .ingredients_recipe_checkbox {
   display: flex;
   flex-direction: column;
